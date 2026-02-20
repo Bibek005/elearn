@@ -1,5 +1,6 @@
 // src/sections/CTC.jsx
 import "./CTC.css";
+import aboutImg from "../assets/new.jpg";
 
 import { FaStar, FaRegStar, FaGem } from "react-icons/fa";
 import { IoSparklesSharp } from "react-icons/io5";
@@ -11,9 +12,9 @@ const CTC = () => {
         {/* Image Side */}
         <div className="ctc-image-wrapper">
           <img
-            src="/images/about-illustration.png"
-            alt="Students learning online with digital devices"
-            className="ctc-image"
+            src={aboutImg}
+              alt="Students learning online with digital devices"
+              className="ctc-image"
           />
         </div>
 
